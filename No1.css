@@ -1,0 +1,67 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: cursive;
+}
+body{
+    height: 50vh;
+    width: 50vw ;
+}
+
+.form{
+    background-image: url(/blurred-valentine-s-day-wallpaper_23-2148819570.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+
+    color: #ee808d;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    text-align: center;
+}
+.form h1{
+    padding: 0px 0px 50px 0px;
+}
+.form h2{
+    padding: 0px 0px 50px 0px;
+}
+
+.btnyes{
+    padding: 10px 40px;
+    background-color: #ee808d;
+    color: whitesmoke;
+    border-radius: 10px;
+    margin: 0px 0px;
+    font-family: cursive;
+    border: 2px solid #f2c2c8;
+    cursor: pointer;
+} 
+ .btnyes:hover{
+    transform: scale(1.1);
+}
+
+.btn{
+    display: flex;
+    
+}
+
+  
+  
+  
+  .btnno{
+    padding: 10px 40px;
+    background-color: #ee808d;
+    color: whitesmoke;
+    border-radius: 10px;
+    margin: 0px 20px;
+    font-family: cursive;
+    border: 2px solid #f2c2c8;
+    cursor: pointer;
+   position: absolute;
+   left: 300px; 
+}
+  
